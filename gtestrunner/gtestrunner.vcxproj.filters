@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Runners">
+      <UniqueIdentifier>{691f86dc-eb1a-44ff-b018-d1acd489a531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{2e68ceaa-40ab-4ce4-90dd-5c68faa2fdc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Formats">
+      <UniqueIdentifier>{f93a436e-eaa7-478b-b566-770a68e3fc22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Explorer">
+      <UniqueIdentifier>{f1e34925-74fa-40c0-8405-9ed3f974c75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stdafx">
+      <UniqueIdentifier>{3f710f2b-4d74-47ba-a888-6197ffc009bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlakyTestRunner.cpp">
+      <Filter>Runners</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRunner.cpp">
+      <Filter>Runners</Filter>
+    </ClCompile>
+    <ClCompile Include="ParallelTestRunner.cpp">
+      <Filter>Runners</Filter>
+    </ClCompile>
+    <ClCompile Include="TestResult.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRunResult.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMethod.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlTestResultReader.cpp">
+      <Filter>Formats</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlTestResultWriter.cpp">
+      <Filter>Formats</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleTestResultWriter.cpp">
+      <Filter>Formats</Filter>
+    </ClCompile>
+    <ClCompile Include="TestExecutable.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TestExplorer.cpp">
+      <Filter>Explorer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FlakyTestRunner.h">
+      <Filter>Runners</Filter>
+    </ClInclude>
+    <ClInclude Include="ITestRunner.h">
+      <Filter>Runners</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallelTestRunner.h">
+      <Filter>Runners</Filter>
+    </ClInclude>
+    <ClInclude Include="TestRunner.h">
+      <Filter>Runners</Filter>
+    </ClInclude>
+    <ClInclude Include="TestRunResult.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="TestResult.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMethod.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="TestExecutable.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlTestResultWriter.h">
+      <Filter>Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="ITestResultReader.h">
+      <Filter>Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlTestResultReader.h">
+      <Filter>Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="ITestResultWriter.h">
+      <Filter>Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleTestResultWriter.h">
+      <Filter>Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="TestExplorer.h">
+      <Filter>Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>stdafx</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
